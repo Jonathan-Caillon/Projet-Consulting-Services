@@ -18,7 +18,7 @@ h2 {
 
 .image {
     width: 100%;
-
+    max-width: 500px;
 }
 
 
@@ -31,13 +31,13 @@ h2 {
         padding-top: 50px;
     }
     .padr {
-        padding-right: 150px;
+        padding-right: 80px;
         padding-top: 30px;
     }
 
     .padl {
         padding-top: 30px;
-        padding-left: 150px;
+        padding-left: 80px;
     }
 
     img {
