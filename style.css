@@ -4,10 +4,41 @@ body {
 }
 
 h1 {
+    padding-top: 40px;
     text-align: center;
+    margin-bottom: 80px;
 
 }
 
-.txt {
-    text-align: end;
+
+
+
+
+.image {
+    width: 100%;
+
+}
+
+
+@media (min-width: 992px) {
+    .txt {
+        text-align: end;
+    }
+
+    .top {
+        padding-top: 50px;
+    }
+    .padr {
+        padding-right: 150px;
+        padding-top: 30px;
+    }
+
+    .padl {
+        padding-top: 30px;
+        padding-left: 150px;
+    }
+
+    img {
+        height: 550px;
+    }
 }
